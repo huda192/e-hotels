@@ -1,4 +1,4 @@
-INSERT INTO hotelchain(chainname,centraladdress,emailaddress,phonenumber,numhotels)
+insert into hotelchain(chainname,centraladdress,emailaddress,phonenumber,numhotels)
 VALUES 
     ('Hilton', '123 Bank St, Ottawa, ON, Canada', 'contact@hilton.com', '4163295830', 8),
     ('Mariott','56 Elgin St, Denver, CO, USA','contact@mariott.com','4374701842',8),
@@ -6,7 +6,7 @@ VALUES
     ('Westin','78 Laurier Ave, Montreal, QC, Canada','contact@westin.com','6135893211',8),
     ('Sheraton','22 Weston Rd, Toledo, OH, USA','contact@sheraton.com','3432138054',8);
 
-INSERT INTO hotel(hoteladdress, hotelname, category, numrooms, contactemail, chainname, centraladdress, phonenumber)
+insert into hotel(hoteladdress, hotelname, category, numrooms, contactemail, chainname, centraladdress, phonenumber)
 VALUES 
 	('1114 E Grant St, Iron Mountain, MI, USA','Ivory Palms' ,4,5,'contact@garfield.com','Hilton','123 Bank St, Ottawa, ON, Canada','4167504250'),
 	('4848 University Rd, Prince George, BC, Canada','Scarlet Elephant' ,5,5,'contact@devon.com','Hilton','123 Bank St, Ottawa, ON, Canada','6472988361'),
@@ -53,7 +53,7 @@ VALUES
 	('7723 Greenscape Dr, Knoxville, TN, USA','Everland' ,3,5,'contact@everland.com','Sheraton','22 Weston Rd, Toledo, OH, USA','4148940247'),
 	('1717 Overton Rd, Portland, OR, USA','Traveller' ,5,5,'contact@traveller.com','Sheraton','22 Weston Rd, Toledo, OH, USA','4145667788');
 
-INSERT INTO room(roomid, price, capacity, viewtype, isextendable, hoteladdress, hotelname)
+insert into room(roomid, price, capacity, viewtype, isextendable, hoteladdress, hotelname)
 values 
     (100, 100, 2, 'sea', 'no', '1114 E Grant St, Iron Mountain, MI, USA', 'Ivory Palms'),
     (101, 150, 3, 'sea','no', '1114 E Grant St, Iron Mountain, MI, USA', 'Ivory Palms'),
@@ -337,7 +337,7 @@ values
     (4067,'96 Whitmore Road','Tiffany','Gardener'),
     (2940,'25 Speers Road','Umar','Khan');
 
-INSERT INTO employee(empid, empaddress, empfirstname, emplastname)
+insert into employee(empid, empaddress, empfirstname, emplastname)
 values 
     (1001,'10 Carey Parkway','Eilis','Twigger'),
     (1002,'736 Vidon Trail','Melva','Dykins'),

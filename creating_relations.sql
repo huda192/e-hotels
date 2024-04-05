@@ -1,4 +1,6 @@
-CREATE TABLE HotelChain (
+set search_path = 'projectGroup100';
+
+create table HotelChain (
 ChainName VARCHAR(50) NOT NULL,
 CentralAddress VARCHAR(50) NOT NULL,
 EmailAddress VARCHAR(50) NOT NULL,
@@ -54,8 +56,6 @@ primary key(RoomID),
 foreign key(RoomID) references Room(RoomID) on delete cascade
 );
 
-
-
 create table Employee(
 EmpID int,
 EmpAddress varchar(50),
@@ -63,7 +63,6 @@ EmpFirstName varchar(50),
 EmpLastName varchar(50),
 primary key (EmpID)
 );
-
 
 create table Manager(
 HotelAddress varchar(50),
