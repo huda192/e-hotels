@@ -17,6 +17,7 @@ NumRooms int,
 ContactEmail varchar(50),
 ChainName varchar(50) not null,
 CentralAddress varchar(50) not null,
+PhoneNumber varchar(10),
 CONSTRAINT hotel_unique_constraint UNIQUE (HotelAddress, HotelName),
 primary key(HotelAddress, HotelName, ChainName, CentralAddress),
 foreign key (ChainName, CentralAddress) references HotelChain(ChainName, CentralAddress)
