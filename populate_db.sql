@@ -579,15 +579,15 @@ values
     (212, 'yes'),
     (234, 'yes');
 
-insert into booking(roomid, isarchived, payment, isrenting, custid)
-values (100,'no',100,'yes', 5793),
-(125,'yes','no',150,4148 ),
-(258,'yes','no',210,1304),
-(222,'yes','no',,4320),
-(130,'yes','no',130,0184),
-(166,'no','yes',300,5493),
-(161,'yes','no',200,4067),
-(179,'yes','no',200,2940)
+insert into booking(roomid, isarchived, payment, isrenting, custid, date)
+values (100,'no',100,'yes', 5793, 'Jan 5 2024'),
+(125,'yes','no',150, 4148, 'Mar 13 2024'),
+(258,'yes','no',210, 1304, 'Mar 23 2024'),
+(222,'yes','no',130, 4320, 'Feb 7 2024'),
+(130,'yes','no',130, 0184, 'Jan 11 2024'),
+(166,'no','yes',300, 5493, 'Apr 21 2024'),
+(161,'yes','no',200, 4067, 'May 23 2024'),
+(179,'yes','no',200, 2940, 'Jan 6 2024')
 
 
 insert into manager(empid, hoteladdress, hotelname)
