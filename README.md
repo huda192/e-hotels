@@ -1,5 +1,8 @@
-# Deliverable 2 - Group 100
+# e-hotels dbms
 
 This repository includes:
 - SQL code: sqlCode/
-- Report: finalDeliverable.pdf
+- ERdiagram.pdf
+- relationalschema.pdf
+- instructions.pdf
+  
