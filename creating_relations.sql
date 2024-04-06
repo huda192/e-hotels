@@ -50,6 +50,7 @@ create table Booking(
 RoomID int,
 isArchived varchar(50) not null,
 isRenting varchar(50) not null,
+payment INT,
 custid INT,
 CONSTRAINT fk_booking_custid FOREIGN KEY (custid) REFERENCES customer(custid),
 primary key(RoomID),
