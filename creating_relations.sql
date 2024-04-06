@@ -46,14 +46,15 @@ CustLastName varchar(50),
 primary key(CustID)
 );
 
-create table Booking(
+create table Booking(     
 RoomID int,
 isArchived varchar(50) not null,
-isRenting varchar(50) not null,
 payment INT,
+isRenting varchar(50) not null,
 custid INT,
+date varchar(50) not null,
 CONSTRAINT fk_booking_custid FOREIGN KEY (custid) REFERENCES customer(custid),
-primary key(RoomID),
+primary key(RoomID, payment, date),
 foreign key(RoomID) references Room(RoomID) on delete cascade
 );
 
