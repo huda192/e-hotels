@@ -1,5 +1,3 @@
-
-
 create or replace function check_room_id_exists()
 returns trigger
 language plpgsql
